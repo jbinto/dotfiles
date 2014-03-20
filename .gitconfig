@@ -1,0 +1,7 @@
+[user]
+	name = Jesse Buchanan
+	email = jbinto@jbinto.ca
+[push]
+	default = simple
+[core]
+	pager = less
