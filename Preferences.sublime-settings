@@ -1,0 +1,27 @@
+{
+	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		".sass-cache",
+		".tmp",
+		"node_modules",
+		"dist",
+		"bower_components"
+	],
+	"font_size": 17,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage",
+		"Sublime-CSS3",
+		"JSHint Gutter",
+		"Gutter Color"
+	],
+	"tab_size": 2,
+	"theme": "Cobalt2.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"highlight_line": true
+}
