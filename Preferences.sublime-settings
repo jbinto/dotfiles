@@ -11,17 +11,17 @@
 		"dist",
 		"bower_components"
 	],
-	"font_size": 17,
+	"font_size": 21,
+	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage",
-		"Sublime-CSS3",
 		"JSHint Gutter",
+		"Sublime-CSS3",
 		"Gutter Color"
 	],
 	"tab_size": 2,
 	"theme": "Cobalt2.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"highlight_line": true
+	"translate_tabs_to_spaces": true
 }
