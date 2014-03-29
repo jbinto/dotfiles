@@ -79,3 +79,20 @@ source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
 chruby ruby-2.1.1 
 
+
+# for pyqt, see `brew info pyqt`
+export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
+
+# see http://travisjeffery.com/b/2012/01/zshs-extended-glob-and-octopresss-new-post-script/
+# disable globbing on rake
+alias rake="noglob rake"
+alias bundle="noglob bundle"
+
+
+# 2014-03-27 jb
+# stop clang from complaining about unused flags
+# see http://stackoverflow.com/a/22322645/19779
+export CFLAGS=-Qunused-arguments
+export CPPFLAGS=-Qunused-arguments
+
+export ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future 
