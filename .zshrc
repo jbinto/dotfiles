@@ -78,7 +78,9 @@ export PATH="/usr/local/heroku/bin:$PATH"
 # http://andycroll.com/2014/01/15/the-simplest-possible-serious-ruby-on-rails-setup-on-mavericks/
 source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
-chruby ruby-2.1.1 
+
+# updated to ruby 2.1.2, 2014-10-06 jb
+chruby ruby-2.1.2 
 
 
 # for pyqt, see `brew info pyqt`
@@ -97,3 +99,9 @@ export CFLAGS=-Qunused-arguments
 export CPPFLAGS=-Qunused-arguments
 
 export ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future 
+
+# 2014-05-17 jb
+# AWS CLI zsh autocompletion - from `brew install awscli`
+source /usr/local/share/zsh/site-functions/_aws
+
+
