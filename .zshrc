@@ -71,7 +71,7 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/opt/X
 
 
 ### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+#export PATH="/usr/local/heroku/bin:$PATH"
 
 
 # Added for chruby, 2014-03-15 jb
@@ -84,24 +84,24 @@ export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
 
 # see http://travisjeffery.com/b/2012/01/zshs-extended-glob-and-octopresss-new-post-script/
 # disable globbing on rake
-alias rake="noglob rake"
-alias bundle="noglob bundle"
+#alias rake="noglob rake"
+#alias bundle="noglob bundle"
 
 
 # 2014-03-27 jb
 # stop clang from complaining about unused flags
 # see http://stackoverflow.com/a/22322645/19779
-export CFLAGS=-Qunused-arguments
-export CPPFLAGS=-Qunused-arguments
+#export CFLAGS=-Qunused-arguments
+#export CPPFLAGS=-Qunused-arguments
 
-export ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future 
+#export ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future 
 
 # 2014-05-17 jb
 # AWS CLI zsh autocompletion - from `brew install awscli`
-source /usr/local/share/zsh/site-functions/_aws
+#source /usr/local/share/zsh/site-functions/_aws
 
 # updated to ruby 2.1.5, 2014-11-18 jb
-chruby ruby-2.1.5 
+#chruby ruby-2.1.5 
 
 
 
