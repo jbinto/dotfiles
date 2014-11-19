@@ -1,7 +1,8 @@
 [user]
 	name = Jesse Buchanan
-	email = jbinto@jbinto.ca
+	email = hello@jessebuchanan.ca
 [push]
 	default = simple
 [core]
 	pager = less
+	editor = vim 
