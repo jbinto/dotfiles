@@ -79,10 +79,6 @@ export PATH="/usr/local/heroku/bin:$PATH"
 source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
 
-# updated to ruby 2.1.2, 2014-10-06 jb
-chruby ruby-2.1.2 
-
-
 # for pyqt, see `brew info pyqt`
 export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
 
@@ -103,5 +99,9 @@ export ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future
 # 2014-05-17 jb
 # AWS CLI zsh autocompletion - from `brew install awscli`
 source /usr/local/share/zsh/site-functions/_aws
+
+# updated to ruby 2.1.5, 2014-11-18 jb
+chruby ruby-2.1.5 
+
 
 
