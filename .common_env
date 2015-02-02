@@ -1,5 +1,10 @@
+export PATH="/usr/local/sbin:$PATH"
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 plugins=(git extract)
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/opt/chruby/share/chruby/auto.sh
 chruby 2.1.5
+
+alias rake="noglob rake"
+
+
