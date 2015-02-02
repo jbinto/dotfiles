@@ -9,17 +9,18 @@
 		".tmp",
 		"node_modules",
 		"dist",
-		"bower_components"
+		"bower_components",
+		"tmp"
 	],
-	"font_size": 19,
+	"font_size": 20,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"JSHint Gutter",
 		"Sublime-CSS3",
-		"Gutter Color"
+		"Gutter Color",
+		"JSHint Gutter",
+		"Vintage"
 	],
 	"scroll_past_end": true,
 	"tab_size": 2,
