@@ -3,7 +3,7 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 plugins=(git extract)
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/opt/chruby/share/chruby/auto.sh
-chruby 2.1.5
+chruby 2.2.2
 
 alias rake="noglob rake"
 
