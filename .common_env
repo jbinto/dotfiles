@@ -7,4 +7,6 @@ chruby 2.2.2
 
 alias rake="noglob rake"
 
+source ~/.credentialsrc
 
+export ANDROID_HOME=/usr/local/opt/android-sdk
