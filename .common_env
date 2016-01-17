@@ -1,4 +1,4 @@
-export PATH="/usr/local/sbin:$PATH"
+export PATH="~/bin:/usr/local/sbin:/usr/local/opt/android-sdk/bin:$HOME/.node/bin:$PATH"
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 plugins=(git extract)
 source /usr/local/opt/chruby/share/chruby/chruby.sh
@@ -10,3 +10,14 @@ alias rake="noglob rake"
 source ~/.credentialsrc
 
 export ANDROID_HOME=/usr/local/opt/android-sdk
+export EDITOR=vim
+
+export NVM_DIR="/Users/jbinto/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+nvm use stable
+
+# http://stackoverflow.com/a/15157360/19779
+alias npm-exec='$(npm bin)/$@'
+
+
